@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const SENTENCE =
-  "If you can explain your idea to a friend over coffee, you can hand it to an AI agent on make.fun and get back a working first version of your app.";
+  "If you can explain your app idea to a friend over coffee, you can hand it to an AI agent on make.fun and get back a working first version you can actually try.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
